@@ -1,0 +1,22 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "Mern Shopping Cart",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosremetnarg/ubiquitous-carnival.git"
+  },
+  "author": "Grant Emerson / Brad Traversy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosremetnarg/ubiquitous-carnival/issues"
+  },
+  "homepage": "https://github.com/nosremetnarg/ubiquitous-carnival#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
