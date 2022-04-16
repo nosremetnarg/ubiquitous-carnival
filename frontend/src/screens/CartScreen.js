@@ -4,8 +4,11 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col, ListGroup, Image, Form, Button, Card } from 'react-bootstrap'
 import Message from '../components/Message.js'
 import { addToCart } from '../actions/cartActions'
+import { useNavigate } from 'react-router';
+
 
 const CartScreen = ({ history }) => {
+  const navigate = useNavigate()
   const { id } = useParams()
   const productId = id
   const location = useLocation()
@@ -23,5 +26,4 @@ const CartScreen = ({ history }) => {
 
   return <div>Cart</div>
 }
-
 export default CartScreen

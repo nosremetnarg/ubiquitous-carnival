@@ -19,6 +19,7 @@ app.get('/', (req, res) => {
 })
 
 app.use('/api/products', productRoutes)
+// app.use('/cart/api/products', productRoutes)
 
 app.use(notFound)
 
